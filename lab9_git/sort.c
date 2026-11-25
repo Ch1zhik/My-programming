@@ -9,6 +9,5 @@ void bubble(int *arr, int n){
                 swapped = 1;
             }
         }
-        if (!swapped) break;
     }
 }
