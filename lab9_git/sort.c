@@ -1,4 +1,6 @@
-void bubble(int *arr, int n){
+
+
+void bubble(int *arr, int n){//Какой то ком
     for (int i = 0; i<n-1; i++){
         int swapped = 0;
         for (int j = 0; j<n-1-i; j++){
@@ -9,5 +11,7 @@ void bubble(int *arr, int n){
                 swapped = 1;
             }
         }
+
+
     }
 }
